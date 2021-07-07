@@ -6,7 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="icon-96x96.webp">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
   <title>Landing Page Kenzie Academy</title>
+  <script src="https://kit.fontawesome.com/4655e8d62e.js" crossorigin="anonymous"></script>
 </head>
 <body>
   
@@ -210,13 +213,15 @@
         <div class="flex-col">
           
           <div class="secaoContato-informacoes">
+
+            <h2 class="secaoContato-titulo">Contact</h2>
           
-            <p>Contact us and we'll get back to you within 24 hours.</p>
+            <p class="secaoContato-text">Contact us and we'll get back to you within 24 hours.</p>
             
             <ul>
-              <li><a href="#">Chicago, US</a> </li>
-              <li><a href="tel:001515151515">+00 1515151515</a></li>
-              <li><a href="malito:myemail@something.com">myemail@something.com</a></li>
+              <li class="secaoContato-text"><a href="#"><i class="fas fa-map-marker-alt"></i> Chicago, US</a> </li>
+              <li class="secaoContato-text"><a href="tel:001515151515"><i class="fas fa-mobile-alt"></i> +00 1515151515</a></li>
+              <li class="secaoContato-text"><a href="malito:myemail@something.com"><i class="fas fa-envelope"></i> myemail@something.com</a></li>
             </ul>
 
           </div>
@@ -226,26 +231,26 @@
         <!-- COLUNA LADO DIRETO -->
         <div class="flex-col">
           
-          <h2>Contact</h2>
+          
           
           <form action="">
 
             <div class="form-input-model">
-              <label for="nome">Nome</label>
-              <input type="text" placeholder="Name" id="nome" name="nome">
+              <label for="nome" class="hidden">Nome</label>
+              <input type="text" placeholder="Name" id="nome" name="nome" class="input-text">
             </div>
 
             <div class="form-input-model">
-              <label for="email">E-mail</label>
-              <input type="text" placeholder="E-mail" id="email" name="email">
+              <label for="email" class="hidden">E-mail</label>
+              <input type="text" placeholder="E-mail" id="email" name="email" class="input-text">
             </div>
 
             <div class="form-input-model">
-              <label for="mensagem">E-mail</label>
-              <textarea name="mensagem" id="mensagem"></textarea>
+              <label for="mensagem" class="hidden">E-mail</label>
+              <textarea name="mensagem" id="mensagem" class="input-text"></textarea>
             </div>
 
-            <input type="submit" value="Send">
+            <input type="submit" value="Send" class="button-contact">
 
           </form>
 
@@ -258,7 +263,8 @@
   </main>
 
   <footer>
-    <p>Kenzie Academy - <a href="kenzie.com.br">kenzie.com.br</a></p>
+    <p class="hidden">Kenzie Academy - <a href="kenzie.com.br">kenzie.com.br</a></p>
+    <a href="#" class="scrollToTop"><i class="fas fa-arrow-circle-up"></i></a>
   </footer>
 
   <script src="assets/js/script.js"></script>

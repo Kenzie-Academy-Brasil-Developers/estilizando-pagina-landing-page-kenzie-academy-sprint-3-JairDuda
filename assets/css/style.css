@@ -1,4 +1,3 @@
-
 /*
 Theme Name: Landing Page Kenzie Academy
 Theme URI: https://kenzie.com.br/
@@ -29,75 +28,162 @@ family=Lato -> Títulos, textos
 /* FONTS */
 
 /* VARIÁVEIS */
-:root{}
-  
+:root {
+}
+
 /* GERAL */
-html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    list-style: none;
+html,
+body,
+figure,
+div,
+input,
+textarea,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style: none;
 }
-img{
-    max-width: 800px;
+img {
+  width: 50%;
+  max-width: 800px;
 }
-div.flex{
-    display: flex;
+div.flex {
+  display: flex;
 }
-div.full-container{
-    width: 100%;
-    max-width: 1850px;
-    margin:0 auto;
+div.full-container {
+  width: 100%;
+  max-width: 1850px;
+  margin: 0 auto;
 }
-div.large-container{
-    width: 100%;
-    max-width: 1170px;
-    margin:0 auto;
+div.large-container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
 }
-div.container{
-    width: 100%;
-    max-width: 1140px;
-    margin:0 auto;
+div.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #6c757d;
 }
 /* GERAL */
-  
+
 /* HTML */
-html{}
+html {
+}
 /* HTML */
-  
+
 /* BODY */
-body{}
+body {
+}
 /* BODY */
-  
+
 /* HEADER */
-header{}
+header {
+}
 /* HEADER */
-  
+
 /* FOOTER */
-footer{}
+footer {
+}
 /* FOOTER */
 
 /* INICIAL */
-main{}
+main {
+}
+
+.secaoContato {
+  justify-content: center;
+  background-color: #f8f9fa;
+  line-height: 30px;
+}
+
+.flex {
+  /* width: 100vw; */
+  flex-direction: column;
+  padding: 40px;
+}
+
+.secaoContato-titulo {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.input-text {
+  outline: none;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding-bottom: 20px;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.button-contact {
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  float: right;
+}
+
+.scrollToTop {
+  display: flex;
+  justify-content: center;
+  padding: 10%;
+  color: #4361ee;
+}
+
+.hidden {
+  display: none;
+}
+/* .secaoContato-informacoes {
+  padding-bottom: 20px;
+} */
+
+.secaoContato-text {
+  color: #6c757d;
+}
 /* INICIAL */
 
 /* EXTRAS */
 
 /* para estilizar a scrollbar */
-::-webkit-scrollbar{}
-::-webkit-scrollbar-button{}
-::-webkit-scrollbar-track{}
-::-webkit-scrollbar-track-piece{}
-::-webkit-scrollbar-thumb{}
-::-webkit-scrollbar-corner{}
-::-webkit-resizer{}
+::-webkit-scrollbar {
+}
+::-webkit-scrollbar-button {
+}
+::-webkit-scrollbar-track {
+}
+::-webkit-scrollbar-track-piece {
+}
+::-webkit-scrollbar-thumb {
+}
+::-webkit-scrollbar-corner {
+}
+::-webkit-resizer {
+}
 
 /* EXTRAS */
-  
 
 /* MEDIA QUERIES */
-    @media screen and (min-width: 400px) {}
-  
-    @media screen and (min-width: 800px) {}
+@media screen and (min-width: 400px) {
+}
+
+@media screen and (min-width: 800px) {
+}
 /* MEDIA QUERIES */
