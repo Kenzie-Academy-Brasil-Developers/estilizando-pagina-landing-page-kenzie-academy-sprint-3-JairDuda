@@ -98,8 +98,8 @@ header > label{
     /* border: solid 1px #ccc; */
     display: block;
     position: absolute;
-    right: 15px;
-    top: 0px;
+    right: 35px;
+    top: 10px;
     width: 25px;
     padding: 5px;
     z-index: 3;
