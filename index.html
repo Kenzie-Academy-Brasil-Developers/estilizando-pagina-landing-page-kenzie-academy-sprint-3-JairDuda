@@ -12,7 +12,11 @@
   
   <!-- CABEÇALHO -->
   <header class="topo">
-
+    <label for="menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
     <div class="large-container">
       <!-- LOGO -->
       <figure>
@@ -21,7 +25,8 @@
       </figure>
 
       <!-- MENU DE NAVEGAÇÃO -->
-      <nav>
+      <nav class="cabecalho_menu">
+        <input type="checkbox" id="menu">
         <ul>
           <li><a href="#1">Sobre a Kenzie</a></li>
           <li><a href="#2">Agenda</a></li>
@@ -71,7 +76,7 @@
         <div class="flex-col">
 
           <figure>
-            <img src="assets/img/python.png" alt="python">
+            <img class="python" src="assets/img/python.png" alt="python">
             <figcaption>python</figcaption>  
           </figure>      
 
@@ -81,7 +86,7 @@
         <div class="flex-col">
 
             <figure>
-              <img src="assets/img/JavaScript-logo.png" alt="Java Script">
+              <img class="js" src="assets/img/JavaScript-logo.png" alt="Java Script">
               <figcaption>Java Script</figcaption>  
             </figure>      
   
@@ -90,13 +95,13 @@
         <!-- COLUNA DIREITA -->
         <div class="flex-col">
 
-            <h2> LOREM IPSUM DOLOR SIT JAVASCRIPT</h2>
+            <h2 class="flex__col--texto"> LOREM IPSUM DOLOR SIT JAVASCRIPT</h2>
             <ul>
-                <li>The standard Lorem Ipsum passage, used since the 1500s</li>
-                <li>Section 1.10.32 of "de Finibus Bonorum et Malorum" by Cicero in 45 BC</li>
-                <li>1914 translation by H. Rackham</li>
-                <li>Section 1.10.33 of "de Finibus Bonorum et Malorum", by Cicero in 45 BC</li>
-                <li>1914 translation by H. Rackham</li>
+                <li class="flex-col__links">The standard Lorem Ipsum passage, used since the 1500s</li>
+                <li class="flex-col__links">Section 1.10.32 of "de Finibus Bonorum et Malorum" by Cicero in 45 BC</li>
+                <li class="flex-col__links">1914 translation by H. Rackham</li>
+                <li class="flex-col__links">Section 1.10.33 of "de Finibus Bonorum et Malorum", by Cicero in 45 BC</li>
+                <li class="flex-col__links">1914 translation by H. Rackham</li>
             </ul>
 
         </div>
