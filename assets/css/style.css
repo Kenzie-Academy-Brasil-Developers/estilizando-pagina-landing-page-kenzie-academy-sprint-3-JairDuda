@@ -620,6 +620,8 @@ ul {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        margin-bottom: 100px;
+        width: 80%;
     }
 
     .cabecalho_menu ul > li{
@@ -652,28 +654,29 @@ ul {
     }
 
     .flex{
+        width: 91%;
+        display: flex;
         margin: 0 auto;
-        width: 75%;
+        
         flex-direction: row;
         flex-wrap: wrap;
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         display: flex;
-
-
     }
 
     .flex-col-esq {
-        width: 35%;
+        width: 50%;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
+        margin-bottom: 54px;
     }
 
     .flex-col-dir {
-        width: 35%;
+        width: 50%;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -690,17 +693,27 @@ ul {
     }
 
     .flex-col-esq button {
-        width: 30%;
-        
+        width: 100px;
+        margin-bottom: 0;
         text-align: center;
         height: 40px;
         
       }
 
+      .flex-col-esq h2 {
+        margin-bottom: 40px;
+    }
+
       .flex-col-dir .python {
         max-width: 800px;
-        margin-bottom: 150px;
+        
         width: 350px;
+        margin-bottom: 238px;
+    }
+
+    .flex-col-esq .js{
+        width: 180;
+        margin-bottom: 50px;
     }
 
     .secaoDestaqueFormulario button:hover{
@@ -708,11 +721,17 @@ ul {
     }
 
     .secaoSobre h2{
-        font-size: 24px;
+        font-size: 23px;
     }
 
     .secaoSobre p, span{
         font-size: 19px;
+    }
+
+    .flex-col-dir .flex-col__links {
+        
+        color: var(--cor-secundaria);
+        font-size: 13px;
     }
       
 
