@@ -344,5 +344,45 @@ main{}
 /* MEDIA QUERIES */
     @media screen and (min-width: 400px) {}
   
-    @media screen and (min-width: 800px) {}
+    @media only screen and (min-width: 800px) {
+       .large-container {
+            justify-content: space-evenly;
+        }
+
+
+        .label{
+            display: none;
+        }
+
+
+        header .cabecalho_menu ul{
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 10vh;
+            margin-right: 60px;
+            background-color: #00043e;
+            
+
+            position: unset;
+        }
+
+        .secaoSobre{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+        .cabecalho_menu ul > li{
+            background-color: #00043e;
+            padding: 6px;
+            border-radius: 6px;
+        }
+        
+        
+       
+
+    }
 /* MEDIA QUERIES */
